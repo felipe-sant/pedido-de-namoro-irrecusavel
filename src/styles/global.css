@@ -12,6 +12,42 @@
 }
 
 main {
-    min-height: 100vh;
+    min-height: 100dvh;
     max-height: auto;
+}
+
+#conteudo {
+    background: #ff7a7a;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+
+.botoes {
+    display: flex;
+    gap: 40px;
+    width: auto;
+    justify-content: center;
+
+}
+
+.btn {
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
 }
