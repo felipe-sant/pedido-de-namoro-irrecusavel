@@ -21,6 +21,7 @@ function Home() {
                 <button className="btn acc" onClick={sim}>Sim ❤️</button>
                 <button className="btn rec" id="recusar" onMouseOver={desvia} onClick={desvia}>Não 💔</button>
             </div>
+            <footer className="footer"><a href="https://github.com/felipe-sant/pedido-de-namoro-irrecusavel/" target="_blank" rel="noreferrer">GitHub do Projeto</a></footer>
         </main>
     )
 }
